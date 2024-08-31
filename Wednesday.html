@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monday Timetable</title>
+    <title>Wednesday Timetable</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,9 +16,23 @@
             padding: 10px;
             border-radius: 8px;
             margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .header h2 {
             margin: 0;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            background-color: rgb(3, 85, 94);
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .header a:hover {
+            background-color: rgb(2, 70, 78);
         }
         .login-details {
             margin-bottom: 20px;
@@ -36,41 +50,23 @@
             border: 1px solid #ccc;
             padding: 10px;
             text-align: center;
-            color: whitesmoke;
         }
         .timetable th {
             background-color: rgb(4, 100, 111);
-            color: white;
-            
         }
     </style>
 </head>
 <body>
 
-    <pr></pr>
-    <br>
-     <pr></pr>
-
     <div class="header">
-        <h2>Wednesday Timetable</h2>
+        <h2>Monday Timetable</h2>
+        <a href="logout.html">Logout</a>
     </div>
 
     <div class="login-details">
-        <pr></pr>
-        <br>
-        <pr></pr>
         <p><strong>Name:</strong> Eileen Prinsla</p>
-        <pr></pr>
-         <br>
-        <pr></pr>
         <p><strong>Department:</strong> Computer Science</p>
-        <pr></pr>
-         <br>
-         <pr></pr>
         <p><strong>Year:</strong> 3rd Year</p>
-        <pr></pr>
-        <br>
-        <pr></pr>
     </div>
 
     <table class="timetable">
@@ -121,15 +117,15 @@
             </tr>
             <tr>
                 <td>7</td>
-                <td>3:00 PM - 4:00 PM</td>
-                <td>History</td>
-                <td>Mr. Wilson</td>
+                <td>4:00 PM - 5:00 PM</td>
+                <td>Geography</td>
+                <td>Mrs. Green</td>
             </tr>
             <tr>
                 <td>8</td>
-                <td>3:00 PM - 4:00 PM</td>
-                <td>History</td>
-                <td>Mr. Wilson</td>
+                <td>5:00 PM - 6:00 PM</td>
+                <td>Physical Education</td>
+                <td>Mr. Clark</td>
             </tr>
         </tbody>
     </table>

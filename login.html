@@ -65,11 +65,15 @@
             color: rgb(4, 100, 111);
             text-decoration: none;
         }
+        i{
+            color: rgb(4, 100, 111);
+        }
     </style>
 </head>
 <body>
 
     <div class="login-container">
+        <i class="far fa-id-card"></i>
         <h1>Login to Your Timetable</h1>
         <form id="login-form">
             <input type="text" placeholder="Username" name="username" required>
@@ -81,9 +85,12 @@
                 <input type="checkbox" name="remember" id="remember">
                 <label for="remember" style="color: white;">Remember me</label>
             </div>
-
+            <pr>
+                <br>
+            </pr>
             <input type="submit" value="Login">
         </form>
+        
         <div class="forgot-password">
             <a href="#">Forgot your password?</a>
         </div>
@@ -95,6 +102,6 @@
             window.location.href = 'day.html'; 
         });
     </script>
-
+    
 </body>
 </html>
